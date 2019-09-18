@@ -23,8 +23,11 @@ npm install -g ionic cordova
 
 Project is run for API's android level 19+.
 
+* **Suggestion** - Use the app [PostMan](https://www.getpostman.com/downloads/) to test requests
+
 ### Permission
 If you run the app and your device is not allowed to send an sms, add it to AndroidMainfest.xml
 ```
 <uses-permission android:name="android.permission.SEND_SMS" />
 ```
+
