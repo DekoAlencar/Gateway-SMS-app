@@ -25,9 +25,9 @@
           Start server and access the url api  to send a sms using your phone. <b><u>Resources API</u></b>
         </p>
         <ion-item *ngIf="active">
-          <ion-icon slot="start" name="at"></ion-icon>
-          <ion-label>Send a email</ion-label>
-          <p>{{url}}?send=email&email=destiny@mail.com&msg=your_messager</p>
+          <ion-icon slot="start" name="send"></ion-icon>
+          <ion-label>Send a sms</ion-label>
+          <p>{{url}}?number=99999999&msg=your_messager</p>
         </ion-item>
       </ion-card-content>
     </ion-card>
