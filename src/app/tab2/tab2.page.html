@@ -1,9 +1,26 @@
-<ion-header>
+<ion-header color="light">
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      Config
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <form>
+    <ion-list lines="full" class="ion-no-margin ion-no-padding">
+      <ion-item>
+          <ion-label position="stacked">Port <ion-text color="danger">*</ion-text></ion-label>
+          <ion-input [(ngModel)]="setting.port" name="port"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label position="stacked">IpAdress <ion-text color="danger">*</ion-text></ion-label>
+          <ion-input disabled [(ngModel)]="setting.ipAddress" name="ipAddress"> </ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label position="stacked">IpAdress <ion-text color="danger">*</ion-text></ion-label>
+          <ion-input disabled [(ngModel)]="setting.typeInterface" name="typeInterface"> </ion-input>
+      </ion-item>
+    </ion-list>
+    </form>
+</ion-content>
