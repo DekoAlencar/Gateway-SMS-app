@@ -1,5 +1,5 @@
 # Gateway-SMS-app
-This app make the smartPhone a gateway to send sms
+This app makes your smartphone a gateway for sending SMS.
 
 ## Images project
 ![](img_project.png)
@@ -13,8 +13,8 @@ git clone https://github.com/DekoAlencar/Gateway-SMS-app.git
 ```
 
 ### Installing
-This project make in framework ionic with cordova.
-Install the depences for project it works.
+This project is made with ionic framework and cordova.
+Install the dependencies for the project to work.
 ```
 npm install -g ionic cordova
 ```
